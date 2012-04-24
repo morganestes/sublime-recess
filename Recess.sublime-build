@@ -1,0 +1,19 @@
+{
+  "selector": "source.css",
+
+  "shell": true,
+
+  "cmd": ["recess ${file}"],
+
+  "file_regex": "^ *\\[css\\] (.+):([0-9]+):() (.*)$",
+  "line_regex": "(\\d+),(\\d+)",
+
+  "osx": {
+    "path": "/usr/local/bin"
+  },
+
+  "windows": {
+    //"cmd": ["recess $file --config \"${packages}\\Recess\\config.json\" > \"${file_path}\\\\${file_base_name}-recess.$file_extension\" && \"${file_path}\\\\${file_base_name}-recess.$file_extension\""]
+    "cmd": ["recess $file --noIDs false --stripColors true"]
+  }
+}
