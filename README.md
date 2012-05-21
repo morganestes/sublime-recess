@@ -18,7 +18,9 @@ I wanted to use the new tool from @fat to clean up my CSS inside [Sublime Text 2
 ### Installation ###
 Note: I borrowed these instructions from [LESS-sublime](https://github.com/danro/LESS-sublime/blob/master/readme.md "LESS-sublime readme").
 
-**Without Git:** Download the latest source zip from [github](https://github.com/morganestes/sublime-recess/zipball/master) and extract the files to your Sublime Text "Packages" directory, into a new directory named `Recess`.
+**Without Git:** 
+* **Best Method**: Install using [Package Control](http://wbond.net/sublime_packages/package_control).
+* Download the latest source zip from [github](https://github.com/morganestes/sublime-recess/zipball/master) and extract the files to your Sublime Text "Packages" directory, into a new directory named `Twitter Recess`.
 
 **With Git:** Clone the repository in your Sublime Text "Packages" directory:
 

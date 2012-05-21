@@ -13,7 +13,7 @@
   },
 
   "windows": {
-    //"cmd": ["recess $file --config \"${packages}\\Recess\\config.json\" > \"${file_path}\\\\${file_base_name}-recess.$file_extension\" && \"${file_path}\\\\${file_base_name}-recess.$file_extension\""]
+    //"cmd": ["recess $file --config \"${packages}\\Twitter Recess\\config.json\" > \"${file_path}\\\\${file_base_name}-recess.$file_extension\" && \"${file_path}\\\\${file_base_name}-recess.$file_extension\""]
     "cmd": ["recess $file --noIDs false --stripColors true"]
   }
 }
