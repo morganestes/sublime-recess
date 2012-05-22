@@ -1,0 +1,21 @@
+{
+  "selector": "source.css",
+
+  "cmd": ["recess ${file}"],
+
+  "file_regex": "^ *\\[css\\] (.+):([0-9]+):() (.*)$",
+  "line_regex": "(\\d+),(\\d+)",
+
+  "osx": {
+    "path": "/usr/local/bin"
+  },
+
+  "windows": {
+    // Copy file to temp location and compile the temp file. Once it's done, remove the temp and leave the new CSS file behind.
+    // See http://www.sublimetext.com/forum/viewtopic.php?f=3&t=4370 for concatenating Windows commands.
+    "shell": true,
+    "cmd": ["copy", "$file", "${file_base_name}.temp.${file_extension}", "&",
+            "recess", "--compile", "${file_base_name}.temp.${file_extension}", ">", "${file_base_name}.css", "--noIDs", "false", "--stripColors", "true", "&",
+            "del", "${file_base_name}.temp.${file_extension}"]
+  }
+}

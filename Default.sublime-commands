@@ -2,4 +2,9 @@
   "id": "recess",
   "caption": "Recess: Check for problems",
   "command": "recess"
+},
+{
+  "id": "recesscompile",
+  "caption": "Recess: Compile into new CSS file",
+  "command": "recess_compile"
 }]

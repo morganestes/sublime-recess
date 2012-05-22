@@ -1,5 +1,10 @@
 # Recess for Sublime Text 2 #
 
+**Updated 5/22/12**: 
+
+- Added `--compile` and changed the menu to handle multiple options.
+- Only have Windows commands; I’m looking for help with Linux and OSX.
+
 ## Tools Used ##
 - [https://github.com/twitter/recess](https://github.com/twitter/recess "Twitter Recess")
 - [https://github.com/uipoet/sublime-jshint](https://github.com/uipoet/sublime-jshint "JSHint for Sublime")
@@ -12,8 +17,8 @@ I wanted to use the new tool from @fat to clean up my CSS inside [Sublime Text 2
 - I'm using Windows 7 x64 as my development machine, so all my code in the plugin is geared for that platform. I could use help expanding it to Mac and Linux.
 - I'm new to [node.js](http://nodejs.org/) and some of this may be related to my very limited understanding of how it works.
 - Options can be added to the `cmd` line, but I can't get the config file to work. I've tried different settings and commands, but get a run of errors that I don't yet understand.
-- I can either compile or get error reports, but not both.
-- I need to learn how to have multiple commands, so I can either lint or compile right from a command window or keyboard.
+- <del>I can either compile or get error reports, but not both.</del> See [Issue #2](https://github.com/morganestes/sublime-recess/issues/2) for an update.
+- <del>I need to learn how to have multiple commands, so I can either lint or compile right from a command window or keyboard.</del> See [Issue #2](https://github.com/morganestes/sublime-recess/issues/2) for an update.
 
 ### Installation ###
 Note: I borrowed these instructions from [LESS-sublime](https://github.com/danro/LESS-sublime/blob/master/readme.md "LESS-sublime readme").
@@ -40,8 +45,8 @@ The "Packages" directory is located at:
 
 There are three ways to run it:
 
-1. Right-click in the window and select RECESS.
-2. Ctrl+Shift+R on your keyboard.
-3. Use Ctrl+Shif+P to open the Command Pallete. Type "Recess" to get the command "Recess: Check for problems."
+1. Right-click in the window and select the options from the Recess menu.
+2. Ctrl+Shift+R on your keyboard for linting, Ctrl+Shift+Alt+R for compiling.
+3. Use Ctrl+Shif+P to open the Command Pallete. Type "Recess" to get the commands to choose from.
 
 

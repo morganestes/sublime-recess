@@ -3,8 +3,11 @@
   "mnemonic": "t",
   "id": "tools",
   "children": [{
-    "id": "recess",
-    "caption": "RECESS",
-    "command": "recess"
+    "id": "recesstools",
+    "caption": "Recess",
+    "children": [
+      { "id": "recesslint", "caption": "Check for errors", "command": "recess" },
+      { "id": "recesscompile", "caption": "Compile into CSS", "command": "recess_compile" }
+    ]
   }]
 }]

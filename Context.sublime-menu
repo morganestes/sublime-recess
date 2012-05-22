@@ -1,5 +1,8 @@
 [{
-  "id": "recess",
-  "caption": "RECESS",
-  "command": "recess"
+  "id": "recessmenu",
+  "caption": "Recess",
+  "children": [
+      { "id": "recesslint", "caption": "Check for errors", "command": "recess" },
+      { "id": "recesscompile", "caption": "Compile into CSS", "command": "recess_compile" }
+    ]
 }]
