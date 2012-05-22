@@ -24,7 +24,7 @@ Note: I borrowed these instructions from [LESS-sublime](https://github.com/danro
 
 **With Git:** Clone the repository in your Sublime Text "Packages" directory:
 
-    git clone git://github.com/morganestes/sublime-recess.git Recess
+    git clone git://github.com/morganestes/sublime-recess.git "Twitter Recess"
 
 The "Packages" directory is located at:
 
