@@ -1,14 +1,14 @@
 # Recess for Sublime Text 2 #
 
-**Updated 5/22/12**: 
+**Updated 5/22/12**:
 
 - Added `--compile` and changed the menu to handle multiple options.
 - Only have Windows commands; I’m looking for help with Linux and OSX.
 
 ## Tools Used ##
-- [https://github.com/twitter/recess](https://github.com/twitter/recess "Twitter Recess")
-- [https://github.com/uipoet/sublime-jshint](https://github.com/uipoet/sublime-jshint "JSHint for Sublime")
-- [http://www.sublimetext.com/2](http://www.sublimetext.com/2 "Sublime Text 2")
+- [node.js](http://nodejs.org "node.js") with [npm](http://npmjs.org/)
+- [Twitter Recess](https://github.com/twitter/recess "Twitter Recess")
+- [Sublime Text 2](http://www.sublimetext.com/2 "Sublime Text 2")
 
 ## Background ##
 I wanted to use the new tool from @fat to clean up my CSS inside [Sublime Text 2](http://www.sublimetext.com/2 "Sublime Text 2"), which I've just started using. This is my first shot at creating a plugin for ST2, so I built off of JSHint and just made changes to enable Recess to run.
@@ -20,10 +20,18 @@ I wanted to use the new tool from @fat to clean up my CSS inside [Sublime Text 2
 - <del>I can either compile or get error reports, but not both.</del> See [Issue #2](https://github.com/morganestes/sublime-recess/issues/2) for an update.
 - <del>I need to learn how to have multiple commands, so I can either lint or compile right from a command window or keyboard.</del> See [Issue #2](https://github.com/morganestes/sublime-recess/issues/2) for an update.
 
+### Requirements ###
+This plugin acts as an interface for Twitter Recess, which much first be installed on your computer using node.js and npm. It has been tested with Sublime Text 2 Beta Build 2181 and Recess 1.0.4.
+
 ### Installation ###
+Before using the plugin, you must first install recess on node.js.
+
+1. Install [node.js](http://www.nodejs.org) and npm.
+2. Run the command `npm install recess -g` to install recess globally.
+
 Note: I borrowed these instructions from [LESS-sublime](https://github.com/danro/LESS-sublime/blob/master/readme.md "LESS-sublime readme").
 
-**Without Git:** 
+**Without Git:**
 * **Best Method**: Install using [Package Control](http://wbond.net/sublime_packages/package_control).
 * Download the latest source zip from [github](https://github.com/morganestes/sublime-recess/zipball/master) and extract the files to your Sublime Text "Packages" directory, into a new directory named `Twitter Recess`.
 
