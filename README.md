@@ -49,12 +49,12 @@ The "Packages" directory is located at:
     `%APPDATA%/Sublime Text 2/Packages/`
 
 ### Usage ###
-**Configure:** Open Recess.sublime-build and change the options to fit your needs. I recommend leaving in `--stripColors true` since it displays in the ST2 pane weird without it.
+**Configure:** Open Recess.sublime-build and change the options to fit your needs. I recommend leaving in `--stripColors true` since it displays in the ST2 console window weird without it.
 
 There are three ways to run it:
 
 1. Right-click in the window and select the options from the Recess menu.
-2. Ctrl+Shift+R on your keyboard for linting, Ctrl+Shift+Alt+R for compiling.
-3. Use Ctrl+Shif+P to open the Command Pallete. Type "Recess" to get the commands to choose from.
+2. `Ctrl+Shift+R` on your keyboard for linting, `Ctrl+Shift+Alt+R` for compiling.
+3. Use `Ctrl+Shift+P` to open the Command Pallete. Type "Recess" to get the commands to choose from.
 
 
