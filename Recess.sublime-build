@@ -3,7 +3,7 @@
 
   "shell": true,
 
-  "cmd": ["recess ${file}"],
+  "cmd": ["recess ${file} --noIDs false --stripColors true"],
 
   "file_regex": "^ *\\[css\\] (.+):([0-9]+):() (.*)$",
   "line_regex": "(\\d+),(\\d+)",
