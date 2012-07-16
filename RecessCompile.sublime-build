@@ -8,9 +8,10 @@
   "file_regex": "^ *\\[css\\] (.+):([0-9]+):() (.*)$",
   "line_regex": "(\\d+),(\\d+)",
 
-  "osx": {
-    "path": "/usr/local/bin"
-  },
+"osx":
+  {
+		"path": "/usr/local/bin:$PATH"
+	},
 
   "windows": {
     // Copy file to temp location and compile the temp file. Once it's done, remove the temp and leave the new CSS file behind.
