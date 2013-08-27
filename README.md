@@ -58,3 +58,7 @@ There are three ways to run it:
 3. Use `Ctrl+Shift+P` to open the Command Pallete. Type "Recess" to get the commands to choose from.
 
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/morganestes/sublime-recess/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
