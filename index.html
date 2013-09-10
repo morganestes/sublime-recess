@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Sublime-recess by morganestes</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Sublime-recess</h1>
+        <p>Integrating Recess with Sublime Text 2</p>
+        <p class="view"><a href="https://github.com/morganestes/sublime-recess">View the Project on GitHub <small>morganestes/sublime-recess</small></a></p>
+        <ul>
+          <li><a href="https://github.com/morganestes/sublime-recess/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/morganestes/sublime-recess/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/morganestes/sublime-recess">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="recess-for-sublime-text-2" class="anchor" href="#recess-for-sublime-text-2"><span class="octicon octicon-link"></span></a>Recess for Sublime Text 2</h1>
+
+<h2>
+<a name="description" class="anchor" href="#description"><span class="octicon octicon-link"></span></a>Description</h2>
+
+<p>Adds a build setting to use <a href="https://github.com/twitter/recess" title="Twitter Recess">Twitter Recess</a> to compile, clean up, and compress your CSS.</p>
+
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<h3>
+<a name="prerequisites" class="anchor" href="#prerequisites"><span class="octicon octicon-link"></span></a>Prerequisites</h3>
+
+<ol>
+<li>Install <a href="http://www.nodejs.org">node.js</a> and npm.</li>
+<li>Run the command <code>npm install recess -g</code> to install recess globally.</li>
+</ol><h3>
+<a name="install-via-package-control-recommended" class="anchor" href="#install-via-package-control-recommended"><span class="octicon octicon-link"></span></a>Install Via Package Control (RECOMMENDED):</h3>
+
+<ul>
+<li>Install the <a href="http://wbond.net/sublime_packages/package_control">Package Control</a> plugin in Sublime Text 2.</li>
+<li>In ST2 package install dialog, search for "Twitter Recess" and install.</li>
+</ul><h3>
+<a name="install-using-git" class="anchor" href="#install-using-git"><span class="octicon octicon-link"></span></a>Install using Git:</h3>
+
+<p>Clone the repository in your Sublime Text "Packages" directory:</p>
+
+<pre><code>git clone git://github.com/morganestes/sublime-recess.git "Twitter Recess"
+</code></pre>
+
+<p>The "Packages" directory is located at:</p>
+
+<ul>
+<li>OS X: <code>~/Library/Application Support/Sublime Text 2/Packages/</code>
+</li>
+<li>Linux: <code>~/.Sublime Text 2/Packages/</code>
+</li>
+<li>Windows: <code>%APPDATA%/Sublime Text 2/Packages/</code>
+</li>
+</ul><h3>
+<a name="manual-installation" class="anchor" href="#manual-installation"><span class="octicon octicon-link"></span></a>Manual installation:</h3>
+
+<ul>
+<li>Download the <a href="https://github.com/morganestes/sublime-recess/zipball/master">latest source zipball</a> and extract the files to your Sublime Text "Packages" directory, into a new directory named <code>Twitter Recess</code>.</li>
+</ul><h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<h3>
+<a name="configure" class="anchor" href="#configure"><span class="octicon octicon-link"></span></a>Configure</h3>
+
+<p>Open <code>Recess.sublime-build</code> and change the options to fit your needs. I recommend leaving in <code>--stripColors true</code> since it displays in the ST2 console window weird without it.</p>
+
+<h3>
+<a name="run" class="anchor" href="#run"><span class="octicon octicon-link"></span></a>Run</h3>
+
+<ol>
+<li>Right-click in the window and select the options from the Recess menu.</li>
+<li>
+<code>Ctrl+Shift+R</code> on your keyboard for linting, <code>Ctrl+Shift+Alt+R</code> for compiling.</li>
+<li>Use <code>Ctrl+Shift+P</code> to open the Command Pallete. Type "Recess" to get the commands to choose from.</li>
+</ol><h2>
+<a name="changelog" class="anchor" href="#changelog"><span class="octicon octicon-link"></span></a>Changelog</h2>
+
+<h3>
+<a name="022" class="anchor" href="#022"><span class="octicon octicon-link"></span></a>0.2.2</h3>
+
+<ul>
+<li>Added OS X path</li>
+</ul><h3>
+<a name="021" class="anchor" href="#021"><span class="octicon octicon-link"></span></a>0.2.1</h3>
+
+<ul>
+<li>Added Linux path</li>
+</ul><h3>
+<a name="020" class="anchor" href="#020"><span class="octicon octicon-link"></span></a>0.2.0</h3>
+
+<ul>
+<li>Added <code>--compile</code> and changed the menu to handle multiple options.</li>
+</ul><h3>
+<a name="010" class="anchor" href="#010"><span class="octicon octicon-link"></span></a>0.1.0</h3>
+
+<ul>
+<li>Initial release</li>
+</ul><p><a href="https://bitdeli.com/free" title="Bitdeli Badge"><img src="https://d2weczhvl823v0.cloudfront.net/morganestes/sublime-recess/trend.png" alt="Bitdeli Badge"></a></p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/morganestes">morganestes</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
