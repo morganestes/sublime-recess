@@ -10,7 +10,7 @@
 
 "osx":
   {
-		"path": "/usr/local/bin:$PATH"
+		"path": "/usr/local/share/npm/bin:/usr/bin:$PATH"
 	},
 
   "windows": {
