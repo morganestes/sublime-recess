@@ -9,6 +9,7 @@
   "line_regex": "(\\d+),(\\d+)",
 
   "osx": {
+    // use `which recess` to find the path and put it here
     "path": "/usr/local/share/npm/bin:$PATH"
   },
 
