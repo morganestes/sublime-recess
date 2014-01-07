@@ -11,7 +11,7 @@ Adds a build setting to use [Twitter Recess](https://github.com/twitter/recess "
 ### Install using Git:
 Clone the ST3 branch of the repository in your Sublime Text "Packages" directory:
 
-    git clone -b st3 git://github.com/morganestes/sublime-recess.git "Twitter Recess ST3"
+    git clone -b st3 git://github.com/morganestes/sublime-recess.git "Twitter Recess"
 
 The "Packages" directory is located at:
 
