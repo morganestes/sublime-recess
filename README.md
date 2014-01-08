@@ -9,9 +9,9 @@ Adds a build setting to use [Twitter Recess](https://github.com/twitter/recess "
 2. Run the command `npm install recess -g` to install recess globally.
 
 ### Install using Git:
-Clone the ST3 branch of the repository in your Sublime Text "Packages" directory:
+Clone the repository in your Sublime Text "Packages" directory:
 
-    git clone -b st3 git://github.com/morganestes/sublime-recess.git "Twitter Recess"
+    git clone git://github.com/morganestes/sublime-recess.git "Twitter Recess"
 
 The "Packages" directory is located at:
 
