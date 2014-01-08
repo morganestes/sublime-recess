@@ -1,4 +1,4 @@
-# Recess for Sublime Text 3
+# Recess Lint and Build System for Sublime Text
 
 ## Description
 Adds a build setting to use [Twitter Recess](https://github.com/twitter/recess "Twitter Recess") to compile, clean up, and compress your CSS.
